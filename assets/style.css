@@ -43,7 +43,7 @@ header p {
 svg {
 	position: fixed;
 	width: 100vw;
-	height: 100vh;
+	height: 100%;
 	object-fit: cover;
 	pointer-events: none;
 	padding: calc(var(--base) / 2);
