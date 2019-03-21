@@ -18,14 +18,14 @@ slideshow.addEventListener('click', () => {
 	console.log(`Current slide index: ${slideIndex}`);
 });
 
-// const root = document.documentElement;
+const root = document.documentElement;
  
-// document.addEventListener('mousemove', evt => {
-//     let x = evt.clientX / innerWidth;
-//     let y = evt.clientY / innerHeight;
+document.addEventListener('mousemove', evt => {
+    let x = evt.clientX / innerWidth;
+    let y = evt.clientY / innerHeight;
  
-//     root.style.setProperty('--mouse-x', x);
-//     root.style.setProperty('--mouse-y', y);
-// });
+    root.style.setProperty('--mouse-x', x);
+    root.style.setProperty('--mouse-y', y);
+});
 
 for (let a of document.querySelectorAll("a")) a.target = "_blank";
