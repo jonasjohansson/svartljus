@@ -49,7 +49,7 @@ window.addEventListener('mousemove', function() {
     nextName();
 });
 
-setName('svartljus');
+setName(names[0]);
 
 function nextName() {
     setName(names[Math.floor(Math.random() * names.length)]);
