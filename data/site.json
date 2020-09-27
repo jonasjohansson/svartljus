@@ -1,0 +1,29 @@
+{
+  "title": "Svartljus",
+  "url": "https://svartljus.se",
+  "cover": [],
+  "locale": "en_GB",
+  "description": "Svartljus is a collective building dynamic lighting installations on improvised locations.",
+  "members": [
+    {
+      "name": "Jonas Johansson",
+      "url": "https://jonasjohansson.se",
+      "emoji": ""
+    },
+    {
+      "name": "Markus Persson",
+      "url": "#",
+      "emoji": ""
+    },
+    {
+      "name": "Olle Bjerkås",
+      "url": "https://ollebjerkas.se/",
+      "emoji": ""
+    },
+    {
+      "name": "Rose Hallgren",
+      "url": "https://rosehallgren.se/",
+      "emoji": ""
+    }
+  ]
+}
