@@ -19,7 +19,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addShortcode('vimeo', function(id) {
     // return `<iframe src="https://player.vimeo.com/video/${id}" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`
-    return `<figure class="vimeo"><div style="padding-top:56.25%;position:relative;"><iframe src="https://player.vimeo.com/video/${id}?autoplay=0&loop=1&color=ffffff&title=0&byline=0&portrait=0" allow="autoplay; fullscreen" allowfullscreen></iframe></div></figure><script src="https://player.vimeo.com/api/player.js"></script>`
+    return `<div style="padding-top:56.25%;position:relative;"><iframe src="https://player.vimeo.com/video/${id}?autoplay=0&loop=1&color=ffffff&title=0&byline=0&portrait=0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>`
   })
 
   eleventyConfig.addShortcode('favicon', function(emoji) {
